@@ -12,8 +12,33 @@ import Vue from "@/components/icons/Vue.astro"
 import Vuetify from "@/components/icons/Vuetify.astro"
 import Mongo from "@/components/icons/Mongo.astro"
 import Figma from "@/components/icons/Figma.astro"
+import React from "@/components/icons/React.astro"
+import Flutter from "@/components/icons/Flutter.astro"
+import SpringBoot from "@/components/icons/SpringBoot.astro"
+import Material from "@/components/icons/Material.astro"
+import FastApi from "@/components/icons/FastApi.astro"
  
 export const TAGS = {
+    MATERIAL: {
+      name: "Material",
+      class: "bg-[#003159] text-white",
+      icon: Material,
+    },
+    FASTAPI: {
+      name: "FastAPI",
+      class: "bg-[#003159] text-white",
+      icon: FastApi,
+    },
+    SPRINGBOOT:{
+      name: "Spring",
+      class: "bg-[#003159] text-white",
+      icon: SpringBoot,
+    },
+    FLUTTER: {
+      name: "Flutter",
+      class: "bg-[#003159] text-white",
+      icon: Flutter,
+    },
     NEXT: {
       name: "Next.js",
       class: "bg-black text-white",
@@ -23,6 +48,11 @@ export const TAGS = {
       name: "Vue.js",
       class: "bg-black text-[#41B883]",
       icon: Vue,
+    },
+    REACT:{
+      name: "React",
+      class: "bg-[#003159] text-[#61DAFB]",
+      icon: React,
     },
     VUETI: {
       name: "Vuetify",

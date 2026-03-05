@@ -20,6 +20,7 @@ import CP3Image from "../assets/diplomas/Programador/copa-pascal3.jpg"
 import EDTImage from "../assets/diplomas/EDTeam/desarrollo-personal.png"
 import PlatziImage from "../assets/diplomas/Platzi/Diplomas_del_Curso_de_Fundamentos_de_Python.png"
 import SLImage from "../assets/diplomas/SoloLearn/SoloLearnJava.png"
+import TituloUCI from "../assets/diplomas/tituloUCI.png"
 import GGJImage from "../assets/ggj/ggj2024.jpg"
 
 const TAGS = {
@@ -38,6 +39,12 @@ const TAGS = {
   };
   
   export const DIPLOMAS = [
+    {
+      title: "Ingeniero en Ciencias Informaticas",
+      image: TituloUCI,
+      link: "https://docs.google.com/document/d/1G4XixaBhMW81XezeFf8R7cHoX45J9ISOMXUJIXWCS5E/edit?usp=drive_link",
+      tags: [TAGS.ANALISTA, TAGS.PROGRAMADOR, TAGS.DATOS, TAGS.TEST],
+    }, 
     {
       title: "Técnico Medio en Informaticas",
       image: TecnicoImage,
