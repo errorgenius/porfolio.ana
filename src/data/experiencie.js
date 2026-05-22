@@ -1,50 +1,58 @@
 export const EXPERIENCIE = [
   {
-    date: "2025-Actualidad",
-    title: "Full Stack Developer",
-    company: "SG DATA TECH (España)",
+    date: "Mayo 2025 - Presente",
+    title: "Abogada Junior en Area de Practica General",
+    company: "Bermeo & Bermeo Law Firm",
     description:
-      "Durante su tiempo en la empresa, ha trabajado con las siguientes tecnologías: Python, React Native, Javascript, MySQL, SQLite, FastAPI, Git, GitHub, Postman, Google Cloud Platform.",
+      "Constitucion de companias (SA, SAS, Cia. Ltda), fundaciones e iglesias. Compraventa, donaciones y posesiones efectivas. Disolucion y liquidacion de companias. Patentes (inscripcion, contestacion de examenes, gaceta, oposiciones y reportes). Redaccion de demandas. Derecho de familia y sucesiones. Cobranzas en procesos monitorios, ordinarios y sumarios. Manejo de plataformas SATJE, SENADI en linea, Registro Mercantil y Supercias.",
     link: "",
   },
   {
-    date: "2025-Actualidad",
-    title: "Software Developer (Ecuador)",
-    company: "Eqon",
+    date: "Octubre 2025 - Actualidad",
+    title: "Abogada Externa",
+    company: "EQON EC S.A.S.",
     description:
-      "Durante su tiempo en la empresa, ha trabajado con las siguientes tecnologías: Python, FastAPI, Javascript, React, MySQL, Git, GitLab, Postman, Java Spring Boot, Docker, Flutter, Dart.",
-    link: "https://drive.google.com/file/d/1rNdzMvZqu2P6IUDZuyx7EV9cQLjLTHtV/view?usp=sharing",
+      "Redaccion de escritos judiciales. Redaccion de contratos laborales, empresariales y del giro del negocio. Propiedad intelectual y manejo de marcas. Elaboracion de poderes.",
+    link: "",
   },
   {
-    date: "2023-2025",
-    title: "Principal Frontend Developer",
-    company: "Krakenstain (España)",
+    date: "Julio 2024 - Abril 2025",
+    title: "Asistente Legal en Area de Practica General",
+    company: "Bermeo & Bermeo Law Firm",
     description:
-      "Durante su tiempo en la empresa, ha trabajado con las siguientes tecnologías: Vue, Python, Javascript, PHP, MySQL, SQLite, Django, Laravel, Git, GitHub, Postman, Figma.",
-    link: "https://drive.google.com/file/d/1j5ocxr9QuGCM5mutd_Y8MTpK-7m6TF_6/view?usp=sharing",
+      "Redaccion de escritos judiciales, constitucion de companias, fundaciones e iglesias, redaccion de estatutos, impulso a procedimientos legales y redaccion de demandas.",
+    link: "",
   },
   {
-    date: "2021-2023",
-    title: "Full Stack Developer",
-    company: "GoDjango LLC. (Cuba)",
+    date: "Enero 2024 - Julio 2024",
+    title: "Pasante Legal en Area de Marcas y Societario",
+    company: "Bermeo & Bermeo Law Firm",
     description:
-      "Desarrollo de software de Full Stack, principalmente enfocado en el desarrollo con el framework Laravel de PHP y el diseño de interfaces de usuario utilizando AdminLTE y Bootstrap.",
-    link: "https://drive.google.com/file/d/14TNhy426babBn-4n8R6DmQJa5SvMCqrb/view?usp=sharing",
+      "Promocion de registro de marcas, impulsos en instituciones publicas y redaccion de escritos judiciales.",
+    link: "",
   },
   {
-    date: "2019-2021",
-    title: "Desarrollador del Proyecto TITAN de TINORED",
-    company: "Sección Ludox, Palacio Central de Computación y Electrónica (Cuba)",
+    date: "Septiembre 2021 - Diciembre 2024",
+    title: "Asistente Legal",
+    company: "Touwolf Technologies S.A.",
     description:
-      "Sección Ludox, perteneciente al Palacio Central de Computación y Electrónica, sede de los Joven Club en La Habana, se vincularon para ofrecer servicios de videojuegos a los usuarios de la red de alcance nacional TINORED.",
-    link: "https://drive.google.com/file/d/1k2uVMTjdXao__6ZWPPN9jzR0dxaU6pfr/view?usp=sharing",
+      "Resolucion eficiente de consultas, demostracion de conocimiento de productos y servicios, identificacion de oportunidades de venta y trabajo en equipo.",
+    link: "",
   },
   {
-    date: "2017-2019",
-    title: "Principal Full Stack Developer (Cuba)",
-    company: "Freelance",
+    date: "Mayo 2023 - Agosto 2023",
+    title: "Colaboradora de Investigacion",
+    company: "Instituto de Altos Estudios Nacionales (IAEN)",
     description:
-      "Durante mi carrera como desarrollador independiente, he tenido el privilegio de trabajar en diversos proyectos emocionantes que han desafiado mis habilidades y me han permitido crecer profesionalmente",
-    link: "https://drive.google.com/file/d/1KfL1BfBz2JL9jrxZVI8zl-OTAcT5pNvz/view?usp=sharing",
+      "Elaboracion de minutas y apoyo a investigaciones en temas juridicos.",
+    link: "",
+  },
+  {
+    date: "Noviembre 2022 - Abril 2023",
+    title: "Capacitadora para Miembros de Mesa Electoral",
+    company: "Consejo Nacional Electoral (CNE)",
+    description:
+      "Imparticion y difusion de cursos del CNE, orientados a lograr eficacia en el proceso electoral.",
+    link: "",
   },
 ]

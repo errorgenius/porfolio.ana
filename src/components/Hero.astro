@@ -1,10 +1,10 @@
 ---
-const personalImageAlt = "Carlos Brayan";
+const personalImageAlt = "Ana Laura Rojas Saco";
 import Badge from "@/components/Badge.astro";
 import LinkedInIcon from "@/components/icons/LinkedIn.astro";
 import MailIcon from "@/components/icons/Mail.astro";
 import SocialPill from "@/components/SocialPill.astro";
-import GitHub from "./icons/GitHub.astro";
+import LinkIcon from "./icons/Link.astro";
 ---
 
 <div class="max-w-xl">
@@ -15,39 +15,38 @@ import GitHub from "./icons/GitHub.astro";
       alt={personalImageAlt}
     />
     <a
-      href="https://linkedin.com/in/carlos-brayan-error/"
+      href="https://www.linkedin.com/in/ana-laura-rojas-saco-65783a124"
       target="_blank"
       rel="noopener"
       class="flex items-center transition md:justify-center md:hover:scale-105"
     >
-      <Badge>Ocupado</Badge>
+      <Badge>Disponible para asesorias</Badge>
     </a>
   </div>
   <h1
     class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
   >
-    Ing. Carlos Brayan Rámila Chorens
+    Ana Laura Rojas Saco
   </h1>
   <p
     class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
   >
-    +8 años de experiencia como desarrollador de software. <strong>
-      Graduado de Ingenieria en Ciencias Informáticas y Estudiante de Maestria
-      en Inteligencia Artificial.</strong
+    Abogada con experiencia en <strong>
+      Derecho Corporativo, Cobranzas y Propiedad Intelectual.</strong
     >
   </p>
   <nav class="flex flex-wrap gap-4 mt-8">
-    <SocialPill href="mailto:carlos.bramila98@gmail.com">
+    <SocialPill href="mailto:ana.rojas.saco@gmail.com">
       <MailIcon class="size-4" />
       Contáctame
     </SocialPill>
-    <SocialPill href="https://www.linkedin.com/in/carlos-brayan-error/">
+    <SocialPill href="https://www.linkedin.com/in/ana-laura-rojas-saco-65783a124">
       <LinkedInIcon class="size-4" />
       LinkedIn
     </SocialPill>
-    <SocialPill href="https://www.github.com/carterror">
-      <GitHub class="size-4" />
-      GitHub
+    <SocialPill href="/cv.pdf">
+      <LinkIcon class="size-4" />
+      Ver CV
     </SocialPill>
   </nav>
 </div>

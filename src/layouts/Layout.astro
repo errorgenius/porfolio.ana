@@ -19,18 +19,17 @@ const { description, title } = Astro.props
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
-    <meta name="author" content="Carlos Brayan Ramila Chorens" >
+    <meta name="author" content="Ana Laura Rojas Saco" >
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <meta property="og:image" content="https://opengraph.githubassets.com/6babf06f8c0f857c0749faccaf635d434dacc2cf143a93421b1cb2f88aa35fe3/stars/carterror/lists/evidencia-uci" />
-    <meta property="og:image:alt" content="Evidencias para mi portafolio UCI" />
+    <meta property="og:image" content="/me.jpg" />
+    <meta property="og:image:alt" content="Perfil profesional de Ana Laura Rojas Saco" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="600" />
-    <meta property="og:site_name" content="GitHub" />
+    <meta property="og:site_name" content="Portfolio Profesional" />
     <meta property="og:type" content="object" />
-    <meta property="og:title" content="Your list / Evidencia UCI" />
-    <meta property="og:description" content="Evidencias para mi portafolio UCI" />
-    <meta property="og:updated_time" content="2024-02-26 20:25:32 -0500" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
     <title>{title}</title>
     <ViewTransitions />
   </head>
